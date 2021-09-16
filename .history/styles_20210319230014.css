@@ -1,0 +1,9 @@
+.galerry{
+    display: grid;
+    grid-row: 10px;
+}
+
+.gallery img {
+    object-fit: cover;
+    box-shadow: 5px;
+}

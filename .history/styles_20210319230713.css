@@ -1,0 +1,20 @@
+.galerry {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.gallery img {
+    object-fit: cover;
+    border-radius: 5px;
+    width: 100%;
+}
+
+img {
+    border-style: none;
+}
+
+@media screen and (max-width:768px){
+    .galerry{
+        grid-template-columns: 2 1fr;
+    }
+}

@@ -1,0 +1,12 @@
+.galerry{
+    display: grid;
+    grid-row: 10px;
+}
+
+.gallery img {
+    object-fit: cover;
+    border-radius: 5px;
+}
+img{
+    width: 100%;
+}
